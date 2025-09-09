@@ -6,8 +6,11 @@ jobs:
   run-script-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run the script
+      - name: Give execute permission to run.sh
+        run: chmod +x run.sh
+
+      - name: Run script
         run: ./run.sh

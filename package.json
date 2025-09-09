@@ -1,13 +1,12 @@
 {
   "name": "ci-cd-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample project for CI/CD GitHub Actions",
   "main": "index.js",
   "scripts": {
-  "lint": "echo 'Running lint...' && exit 0",
-  "test": "echo 'Running tests...' && exit 0"
-},
-  "keywords": [],
-  "author": "",
+    "lint": "echo 'Linting code...' && exit 0",
+    "test": "echo 'Running tests...' && exit 0"
+  },
+  "author": "Adil Ahmed Shekhani",
   "license": "ISC"
 }

@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "lint": "echo 'Running lint...' && exit 0",
+  "test": "echo 'Running tests...' && exit 0"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
